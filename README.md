@@ -1,6 +1,6 @@
-**Multimodal Project Draft
-Media Manipulation: A Catalyst for Authoritarian Ascendance in Democracies
-**
+**A Multimodal Project**
+
+**Media Manipulation: A Catalyst for Authoritarian Ascendance in Democracies**
 
 **How to access:**
 1. Download the source code in a zipped folder. (Button on top right corner)
