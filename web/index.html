@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Website Title -->
+    <title>MediaCheck</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/down-arrow.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+
+        <a class="navbar-brand logo-text page-scroll" href="index.html">MediaCheck</a>
+
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#register">FACT CHECK<span class="sr-only">(current)</span></a>
+                </li>
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#date" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">LEARN MORE</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="democracy.html"><span class="item-text">DEMOCRACY VS DICTATORSHIP</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="media.html"><span class="item-text">MEDIA A MEDIUM</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="thoughts.html"><span class="item-text">OUR THOUGHTS</span></a>
+                    </div>
+                </li>
+                <!-- end of dropdown menu -->
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#description">RECOGNIZE</a>
+                </li>
+
+                
+            </ul>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <div class="countdown">
+                        </div>
+                        <h1>Media & Democracy</h1>
+                        <p class="p-large">Join us on this journey as we uncover the complexities of media manipulation and its implications for democracy.</p>
+                        <a class="btn-solid-lg page-scroll" href="#register">Fact Check</a>
+                        <a class="btn-outline-lg page-scroll" href="#instructor">Learn More</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+        
+        <!-- Image Slider-->
+        <div class="outer-container">
+            <div class="slider-container">
+                <div class="swiper-container image-slider-1">
+                    <div class="swiper-wrapper">
+                        
+                        <!-- Slide -->
+                        <div class="swiper-slide" >
+                            <img class="img-fluid" src="images/conversation1.png" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/conversation2.png" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/conversation3.png" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                    </div> <!-- end of swiper-wrapper -->
+                    
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- end of add arrows -->
+                    
+                </div> <!-- end of swiper-container -->
+            </div> <!-- end of slider-container -->
+        </div> <!-- end of outer-container -->
+        <!-- end of image slider -->
+
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+    <!-- Registration -->
+    <div id="register" class="form-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Get the facts straight: Verify now!</h2>
+                        <p>Empowering responsible citizenship in the digital democracy with MediaCheck AI.</p>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Enter the information</strong> in the box on right</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Understand the limitations</strong> the model is still under training, may not be completely accurate.</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><strong>Be patient</strong> while we cross-reference the data.</div>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+
+                    <!-- Registration Form -->
+                    <div class="form-container">
+                        <form action="/MediaCheck.py" method="get" id="registrationForm" data-toggle="validator" data-focus="false">
+                            <div class="form-group">
+                                <input type="text" name="info"><textarea class="form-control-textarea" id="cmessage" required></textarea></input>
+                                <label class="label-control" for="cmessage">Enter text here...</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group checkbox">
+                                <input type="checkbox" id="rterms" value="Agreed-to-Terms" name="rterms" required>I agree to be a responsible citizen.</input>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control-submit-button">Verify Now!</button>
+                            </div>
+                            <div class="form-message">
+                                <div id="rmsgSubmit" class="h3 text-center hidden"></div>
+                            </div>
+                        </form>
+                    </div> <!-- end of form-container -->
+                    <!-- end of registration form -->
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->
+    <!-- end of registration -->
+
+
+    <!-- Instructor -->
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/media.jpg" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>What is Media?</h2>
+                        <p>What is an idea without an audience? What is an ideology without any listeners? What is a leader without any followers? Adolf Hitler famously utilized his remarkable public speaking skills to captivate audiences, reaching the masses through radios, televisions, or newspapers the following day for those without immediate access. Every leader requires a medium to propagate their ideas and persuade followers to believe in their promises. A biased media serves as a crucial tool in political campaigns, while an unbiased media is essential for a democratic nation.
+                        </p>
+                        </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of instructor -->
+
+
+    <!-- Description -->
+    <div id="description" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>How to RECOGNIZE manipulation?</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-unstyled li-space-lg first">
+                        <li class="media">
+                            <i class="bullet">1</i>
+                            <div class="media-body">
+                                <h4>Narratives of Threat</h4>
+                                <p>By portraying certain groups, such as immigrants, minorities, or political opponents, as threats to society, these narratives create a sense of fear and insecurity among the population.</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet">2</i>
+                            <div class="media-body">
+                                <h4>Attack on Democratic Institutions</h4>
+                                <p>Undermining rule of law and judiciary, creating a false sense of instability which prompts people to look to strongman leaders who promise peace and stability.</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet">3</i>
+                            <div class="media-body">
+                                <h4>Undermining Personal Autonomy</h4>
+                                <p>Infringing upon personal autonomy by promoting restrictive policies that prioritize ideological or religious beliefs over individual rights and freedoms.
+                                </p>    
+                            </div>
+                        </li>
+                    </ul>
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <ul class="list-unstyled li-space-lg second">
+                        <li class="media">
+                            <i class="bullet">4</i>
+                            <div class="media-body">
+                                <h4>Normalization of Authorotarian Ideas</h4>
+                                <p>The media sells promises of greatness by autocratic leaders. However, this willingness to trade democratic values for the illusion of stability or grandeur poses a significant threat to the fabric of democracy itself.</p>    
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet">5</i>
+                            <div class="media-body">
+                                <h4>Dismissing dissent as 'Fake News'</h4>
+                                <p>Deliberate rejection or labeling of opposing viewpoints as false or misleading, often to discredit or silence dissenting voices.</p>    
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet">6</i>
+                            <div class="media-body">
+                                <h4>Sensationalization</h4>
+                                <p>Emphasizing on dramatic or provocative elements to attract attention, often prioritizing sensational aspects over factual accuracy or context, distorting the true nature of the story.</p>    
+                            </div>
+                        </li>
+                    </ul>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of description -->
+
+
+    <!-- Students -->
+    <div class="basic-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>How does it affect Democracy?</h2>
+                        <p>The surge of interest in digital media has tended to focus on the more overt and extreme forms of nationalism, often characterized by passion and, at times, hate. Scholars and researchers have sought to demonstrate how these forms of nationalism thrive in the digital environment, pointing to the unique characteristics of digital media that contribute to their proliferation. One key aspect is the reliance on user participation, which allows individuals to engage with and spread nationalist narratives quickly and effectively. Additionally, the formation of algorithm-driven filter bubbles further exacerbates this trend, as individuals are exposed primarily to content that aligns with their existing beliefs and biases, reinforcing extreme nationalist ideologies.
+                        </p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/democracy.jpg" alt="alternative">
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of students -->
+
+
+    <!-- Video -->
+    <div class="basic-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Video Preview -->
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=sX7EMTjMf6k&t=3s" data-effect="fadeIn">
+                                <img class="img-fluid" src="images/video.jpg" alt="alternative">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-4 -->
+    <!-- end of video -->
+
+
+    <!-- Takeaways -->
+    <div class="cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>What can YOU do?</h2>
+                    <p class="p-heading">“The authoritarian mindset is rooted in a deep-seated desire for conformity.” (Casalaspi) Quite literally, Think!</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Critical Analysis</h4>
+                            <p>Critically analyzing all information that comes our way to draw our own opinions instead of believing whatever is put on our plate.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Verify</h4>
+                            <p>Verify the accuracy of news stories and discern credible sources from misinformation. Use publicly availaible fact checking products.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Research & Evaluate</h4>
+                            <p>Never believe a single source. Read around the conversation, weigh facts, think if it all fits together and then form an opinion.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards -->
+    <!-- end of takeaways -->
+
+
+    <!-- Testimonials -->
+    <div class="slider-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>What EXPERTS say?</h3>
+
+                    <!-- Text Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container text-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/down-arrow.png" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper">
+                                        <div class="testimonial-text">Populist and antidemocratic leaders are willfully eroding public trust in online information, asserting that fact-based accounts, personal opinions, and wholly fabricated reports should all be considered "fake news" if they are critical of the government</div>
+                                        <div class="testimonial-author">Freedom House</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/down-arrow.png" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper">
+                                        <div class="testimonial-text">The affordances of social networking technologies- algorithms, automation and big data -vastly changes the scale, scope, and precision of how information is transmitted in the digital age. Although social media was once heralded as a force for freedom and democracy, it has increasingly come under scrutiny for its role in amplifying disinformation, inciting violence, and lowering trust in the media and democratic institutions.</div>
+                                        <div class="testimonial-author">Samantha Bradshaw - Oxford Internet Institute</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/down-arrow.png" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper">
+                                        <div class="testimonial-text">Authoritarian leaders weaponize traditional journalistic ethics centered on newsworthiness, balance, and objectivity. In attempting to prove their innocence, journalists end up playing—and usually losing—their game. The proper response should not be to exclude politically dangerous figures from all coverage, but to avoid covering them in a framework of their own choosing. These politicians should not determine an interview’s agenda or setting, and they need to face journalists who ask hard questions, not ones who are satisfied with outrageous quotes that will boost traffic but harm democracy.</div>
+                                        <div class="testimonial-author">Müller, Jan-Werner - Foreign Policy</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/down-arrow.png" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper">
+                                        <div class="testimonial-text">One attempt to capture how social media may solidify authoritarian tendencies while maintaining the governments popularity is the concept of informational autocracies: rule primarily through the manipulation of information.</div>
+                                        <div class="testimonial-author">Trauthig, Martin, & Woolley - Political Research Quaterly</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                            </div> <!-- end of swiper-wrapper -->
+                            
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of text slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-2 -->
+    <!-- end of testimonials -->
+
+
+    <!-- Date -->
+    <div id="date" class="basic-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <h2>Our Appeal</h2>
+                        <p>With elections scheduled to be held this year in both India and the USA, two of the world’s largest democracies, there is a pressing need for being responsible citizens and media consumers. We request you to be aware and responsible by verifying information you come across.</p>
+                        <a class="btn-solid-lg page-scroll" href="#register">Verify Now!</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-5 -->
+    <!-- end of date -->
+    <div>
+        <br>
+        <br>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-col first">
+                        <h5>Thank You!</h5>
+                        </div>
+                </div> <!-- end of col -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Jose, Major Writing Project - English 201</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/jquery.countdown.min.js"></script> <!-- The Final Countdown plugin for jQuery -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
