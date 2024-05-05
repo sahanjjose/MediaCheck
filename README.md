@@ -3,7 +3,7 @@
 **Media Manipulation: A Catalyst for Authoritarian Ascendance in Democracies**
 
 **How to access:**
-1. Download the source code in a zipped folder. (Button on top right corner)
+1. Download the source code in a zipped folder. (Green Button on top right corner says "Code<>")
 2. Extract files
 3. Open MediaCheck\Web\index.html
 
